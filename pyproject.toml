@@ -1,13 +1,14 @@
 [project]
 name = "fof99"
-version = "0.1.0"
+version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "xuanq", email = "xuanqiraphael@gmail.com" }
-]
+authors = "fof99.com"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pandas>=2.3.3",
+    "requests>=2.32.5",
+]
 
 [project.scripts]
 fof99 = "fof99:main"
