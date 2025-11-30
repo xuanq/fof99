@@ -55,23 +55,16 @@
 ```
 
 
-## 安装依赖类库
+## 安装
 
 ```shell
-    # 进入包含【requirements.txt】文件的目录执行下面命令
-    pip install -r requirements.txt --trusted-host mirrors.aliyun.com \
-        --index-url "https://mirrors.aliyun.com/pypi/simple/" 
+    pip install fof99
 ```
 
 
 ## SDK使用示例
 
-```python
-
-    # 将fof99目录添加到Python搜索路径【这步很重要，否则执行脚本找不到请求类】
-    import sys
-    sys.path.append(r'E:\path\to\mall_sdk')
-    
+```python    
     # 1、引入请求类
     from fof99 import FundPrice
     
@@ -90,4 +83,5 @@
     print(res) # 打印结果
     print(req.get_debug_info()) # 打印API响应参数，用于接口调试
 ```
+
 
